@@ -12,6 +12,5 @@ class Anagram
       (@word_entered.split("").sort) == (word.split("").sort)
       end
   end
-end 
 
 end
