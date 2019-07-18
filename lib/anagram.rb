@@ -11,6 +11,7 @@ class Anagram
     find_anagram.final_all do |word|
       if word.split("").sort == word_entered.split("").sort
         word_entered
+      end
   end
 end 
 
