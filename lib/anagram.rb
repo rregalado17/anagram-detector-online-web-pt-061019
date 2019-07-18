@@ -6,13 +6,6 @@ class Anagram
   def initialize(word_entered)
     @word_entered = word_entered
   end 
-  
-  def match(find_anagram)
-    find_anagram.find_all do |word| 
-    if word.split("").sort == (self.word_entered("").sort)
-      word 
-    end 
-  end
-end 
+
   
 end
